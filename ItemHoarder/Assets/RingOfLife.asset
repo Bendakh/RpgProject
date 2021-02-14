@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c726fef9f96e2d04d93cc423a9192eab, type: 3}
+  m_Name: RingOfLife
+  m_EditorClassIdentifier: 
+  id: 0
+  itemName: Ring Of Life
+  icon: {fileID: 21300000, guid: 827b8da7b71212340bce2d5e450f79c9, type: 3}
+  modifiers:
+  - value: 5
+    modType: 0
+    order: 0
+    targetStat: 0
+    minValue: 2
+    maxValue: 8
+    minGrowth: 1
+    maxGrowth: 3
+    growth: 0
+  maxLevel: 20
+  itemUpgradeCost: 5
